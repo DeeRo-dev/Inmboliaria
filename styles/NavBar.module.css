@@ -1,0 +1,18 @@
+.nav{
+  display: grid;
+  width: 100%;
+  height: 10vh;
+  grid-template-columns: 20% 70%;
+  /* background-color: brown; */
+  justify-content: center;
+  
+}
+.ul{
+  display: grid;
+  align-items: center;
+  text-align: end;
+  grid-template-columns: repeat(5, auto);
+}
+.li{
+  list-style:none;
+}
