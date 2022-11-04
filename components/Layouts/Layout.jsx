@@ -2,8 +2,9 @@
 import Head from "next/head";
 import { NavBar } from "../ui";
 import style from '../../styles/Layout.module.css';
-import { Footer } from "../Footer/Footer";
-
+import { Footer } from "../Footer";
+import { FiCodesandbox, FiUsers, FiDollarSign} from "react-icons/fi";
+import { Card } from "../Card";
 
 export const Layout = ({title, children})=> {
 
@@ -54,11 +55,7 @@ export const Layout = ({title, children})=> {
         <h2 className={style.titleDpt}>Propiedades en venta</h2>
         <span lassName={style.subtitleDpt}>Listado con las ultimas propiedades puestas en venta</span>
         <div className={style.cards}>
-          <div className={style.card}>CArd</div>
-          <div className={style.card}>CArd</div>
-          <div className={style.card}>CArd</div>
-          <div className={style.card}>CArd</div>
-          <div className={style.card}>CArd</div>
+         <Card/>
 
         </div>
         <button>Ver mas propiedades en venta</button>
@@ -87,19 +84,22 @@ export const Layout = ({title, children})=> {
         <h1  className={style.titleDpt}>Nuestros Servicios</h1>
         <div className={style.contentCardServ}>
         <div className={style.cardsServicio}>
-       <h1>Arquitectura</h1>
-        <p> En Bera y tu casa queresmos ayudarte a vender tu casa sin que  tu tengas que preocuparte de nada. Haz click en el siguiente boton para ver mas info</p>
+          <FiCodesandbox className={style.icon}/>
+       <h1 className={style.titleSirvicio}>Arquitectura</h1>
+        <p className={style.subtitleSirvicio}> En Bera y tu casa queresmos ayudarte a vender tu casa sin que  tu tengas que preocuparte de nada. Haz click en el siguiente boton para ver mas info</p>
        </div>
        <div className={style.cardsServicio}>
-       <h1>Coaching Inmobiliario</h1>
-        <p> En Bera y tu casa queresmos ayudarte a vender tu casa sin que  tu tengas que preocuparte de nada. Haz click en el siguiente boton para ver mas info</p>
+       <FiUsers className={style.icon}/>
+       <h1 className={style.titleSirvicio}>Coaching Inmobiliario</h1>
+        <p className={style.subtitleSirvicio}> En Bera y tu casa queresmos ayudarte a vender tu casa sin que  tu tengas que preocuparte de nada. Haz click en el siguiente boton para ver mas info</p>
        </div>
        <div className={style.cardsServicio}>
-       <h1>Asesoramiento Financiero</h1>
-        <p> En Bera y tu casa queresmos ayudarte a vender tu casa sin que  tu tengas que preocuparte de nada. Haz click en el siguiente boton para ver mas info</p>
+        <FiDollarSign className={style.icon}/>
+       <h1 className={style.titleSirvicio}>Asesoramiento Financiero</h1>
+        <p className={style.subtitleSirvicio}> En Bera y tu casa queresmos ayudarte a vender tu casa sin que  tu tengas que preocuparte de nada. Haz click en el siguiente boton para ver mas info</p>
        </div>
         </div>
-        <button>Quiero vender mi inmueble</button>
+        <button className={style.btnServ}>Mas informacion acerca de los servicios</button>
       </div>
      
       <Footer/>

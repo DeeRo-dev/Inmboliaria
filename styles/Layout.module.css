@@ -26,6 +26,7 @@
 }
 .titleDpt{
   font-size: 5vh;
+  color:  #3093b8e8;
 }
 .subtitleDpt{
   font-size: 1vh;
@@ -107,7 +108,11 @@
   cursor: pointer;
   background-color:  #3093b8e8;
 }
-
+.servicio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .contentCardServ{
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -116,8 +121,35 @@
 }
 
 .cardsServicio{
-  background-color: #4C66FA;
-  width: 45vh;
-  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 52vh;
+  height:auto;
   margin: 10vh;
+}
+.icon{
+  margin: 2vh;
+  font-size: 15vh;
+  color: #9205E8;
+}
+.titleSirvicio{
+  font-size: 4vh;
+}
+.subtitleSirvicio{
+  font-size: 2.3vh;
+}
+.btnServ{
+  margin-top: 5vh;
+  width: 55vh;
+  height: 8.4vh;
+  color: #fff;
+  font-size: 2.2vh;
+  text-align: center;
+  border: none;
+ background-color:  #39B5E3;
+}
+.btnServ:hover{
+  cursor: pointer;
+  background-color:  #3093b8e8;
 }
