@@ -6,14 +6,15 @@ import { Footer } from "../Footer";
 import { FiCodesandbox, FiUsers, FiDollarSign} from "react-icons/fi";
 import { Card } from "../Card";
 
+
 export const Layout = ({title, children})=> {
 
   return(
     <>
       <Head>
+        <link rel="icon" href="/icon.png"/>
         <title>{title }</title>
         <meta name="author" content="Free Devs"/>
-     
       </Head>
       <div className={style.containerMain}>
 
@@ -56,9 +57,13 @@ export const Layout = ({title, children})=> {
         <span lassName={style.subtitleDpt}>Listado con las ultimas propiedades puestas en venta</span>
         <div className={style.cards}>
          <Card/>
-
+         <Card/>
+         <Card/>
+         <Card/>
+         <Card/>
+         <Card/>
         </div>
-        <button>Ver mas propiedades en venta</button>
+        <button className={style.btnServ}>Ver mas propiedades en venta</button>
       </div>
 
 
@@ -66,12 +71,12 @@ export const Layout = ({title, children})=> {
         <h2 className={style.titleDpt}>Propiedades en Alquiler</h2>
         <span lassName={style.subtitleDpt}>Listado con las ultimas propiedades que estan en alquiler</span>
         <div className={style.cards}>
-          <div className={style.card}>CArd</div>
-          <div className={style.card}>CArd</div>
-          <div className={style.card}>CArd</div>
+        <Card/>
+        <Card/>
+        <Card/>
      
         </div>
-        <button>Ver mas propiedades en venta</button>
+        <button className={style.btnServ}>Ver mas propiedades en alquiler</button>
       </div>
 
       <div className={style.vInmueble}>

@@ -1,0 +1,39 @@
+.card{
+  width: 55vh;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  border-radius: 10px;
+  -webkit-box-shadow: 7px 4px 18px -4px rgba(0,0,0,0.71);
+-moz-box-shadow: 7px 4px 18px -4px rgba(0,0,0,0.71);
+box-shadow: 7px 4px 18px -4px rgba(0,0,0,0.71);
+}
+
+.img{
+  width: 55vh;
+  height: 35vh;
+}
+.contentIconsData{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.text{
+  margin-left: 2vh;
+
+}
+.icon{
+  font-size: 3.2vh;
+  margin-right: 1vh;
+  color: #9205E8;
+}
+.spn{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 2.4vh;
+}
+.precio{
+  color: #39B5E3;
+}
