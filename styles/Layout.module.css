@@ -1,3 +1,4 @@
+
 .containerMain{
   background-image: url("https://i.pinimg.com/originals/58/8b/91/588b9185933ddf836229c29d6d75ce57.jpg");
   background-repeat: no-repeat;
@@ -73,7 +74,7 @@
 }
 
 .vInmueble{
-  background-image: url("http://www.camaratru.org.pe/web2/images/COMUNICACIONES_2021/FOTOS/7.JULIO/02.07.2021/nota4web.jpg");
+  background-image: url("../public/imgCasa.jpg");
   background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
