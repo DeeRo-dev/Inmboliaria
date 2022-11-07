@@ -4,8 +4,7 @@ import { Layout } from '../components/Layouts'
 import styles from '../styles/Home.module.css'
  const Home = ( ) => {
   return (
-    <Layout title='Un nuevo title'>
-      
+    <Layout title='Inmobiliaria'>
     </Layout>
   )
 }
