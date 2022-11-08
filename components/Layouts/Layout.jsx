@@ -22,7 +22,7 @@ export const Layout = ({title, children})=> {
        <main >
         <div className={style.content}>
           <div>
-          <h1>Bera y tu casa</h1>
+          <h1 className={style.titlePrin}>Bera y tu casa</h1>
            <h2>La nueva era inmobiliaria</h2>
           </div>
           <div>

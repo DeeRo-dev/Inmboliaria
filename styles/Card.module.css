@@ -8,6 +8,7 @@
   -webkit-box-shadow: 7px 4px 18px -4px rgba(0,0,0,0.71);
 -moz-box-shadow: 7px 4px 18px -4px rgba(0,0,0,0.71);
 box-shadow: 7px 4px 18px -4px rgba(0,0,0,0.71);
+font-family: 'Poppins', sans-serif;
 }
 
 .img{
@@ -36,4 +37,6 @@ box-shadow: 7px 4px 18px -4px rgba(0,0,0,0.71);
 }
 .precio{
   color: #39B5E3;
+  font-family: 'Merriweather', serif;
+  font-size: 3vh;
 }

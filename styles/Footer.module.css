@@ -1,0 +1,7 @@
+.footer{
+  background-color: rgb(75, 97, 170);
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20vh;
+}
