@@ -15,7 +15,7 @@ export const NavBar = () => {
         <h2>Logo</h2>
         </div>
         <ul className={style.ul}>
-          <li className={style.li}><Link href="/">Propiedades</Link></li>
+          <li className={style.li}><Link href="/info.-">Propiedades</Link></li>
           <li className={style.li}><Link href="/">Quieres vender?</Link></li>
           <li className={style.li}><Link href="/">Servicios</Link></li>
           <li className={style.li}><Link href="/">Sobre de nosotros</Link></li>
