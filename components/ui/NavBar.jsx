@@ -12,11 +12,14 @@ export const NavBar = () => {
     <>
       <nav className={style.nav}>
         <div className={style.contentLogo}>
-        <h2>Logo</h2>
+        <Link href="/">
+           <h2>Logo</h2>
+        </Link>
+     
         </div>
         <ul className={style.ul}>
-          <li className={style.li}><Link href="/info.-">Propiedades</Link></li>
-          <li className={style.li}><Link href="/">Quieres vender?</Link></li>
+          <li className={style.li}><Link href="/propiedades">Propiedades</Link></li>
+          <li className={style.li}><Link href="/vender">Quieres vender?</Link></li>
           <li className={style.li}><Link href="/">Servicios</Link></li>
           <li className={style.li}><Link href="/">Sobre de nosotros</Link></li>
           <li className={style.li}><Link href="/">Contacto</Link></li>
