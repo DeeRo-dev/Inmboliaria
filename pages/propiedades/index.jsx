@@ -4,6 +4,7 @@ import Image from 'next/image';
 import imag from "../../public/banner.jpg";
 import style from "../../styles/Propiedades.module.css"
 import  {Card}  from "../../components/CardProp";
+import {Footer} from "../../components/Footer"
  const Propiedades = ()=>{ 
   return (
     <div>  
@@ -45,6 +46,7 @@ import  {Card}  from "../../components/CardProp";
       <Card/>
 
     </div>
+    <Footer/>
      </div>
   )
 }
