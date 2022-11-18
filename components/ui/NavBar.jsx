@@ -20,9 +20,9 @@ export const NavBar = () => {
         <ul className={style.ul}>
           <li className={style.li}><Link href="/propiedades">Propiedades</Link></li>
           <li className={style.li}><Link href="/vender">Quieres vender?</Link></li>
-          <li className={style.li}><Link href="/">Servicios</Link></li>
-          <li className={style.li}><Link href="/">Sobre de nosotros</Link></li>
-          <li className={style.li}><Link href="/">Contacto</Link></li>
+          <li className={style.li}><Link href="/servicios">Servicios</Link></li>
+          <li className={style.li}><Link href="/nosotros">Sobre de nosotros</Link></li>
+          <li className={style.li}><Link href="/contacto">Contacto</Link></li>
         </ul>
       </nav>
     </>

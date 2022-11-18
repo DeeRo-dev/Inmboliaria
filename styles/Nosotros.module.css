@@ -1,0 +1,21 @@
+.imag{
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
+  opacity: .5;
+}
+.contTitleP{
+  background-color: #39B5E3;
+  width: 50vh;
+  margin-top: 10vh;
+  margin-left: 7vh;
+}
+.content{
+  background-color: aliceblue;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}

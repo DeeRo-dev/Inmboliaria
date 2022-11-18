@@ -1,0 +1,40 @@
+.imag{
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: -1;
+  opacity: .5;
+}
+.contTitleP{
+  background-color: #39B5E3;
+  width: 50vh;
+  margin-top: 10vh;
+  margin-left: 7vh;
+}
+.content{
+  background-color: aliceblue;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.img{
+  width: 60vh;
+  border-radius: 0;
+}
+.infoServ{
+  
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: auto;
+  margin-top: 10vh;
+}
+.contentText{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
