@@ -19,3 +19,17 @@
   display: flex;
   flex-direction: column;
 }
+.container{
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+.img{
+  border-radius: 10%;
+  width: 82vh;
+}
+.spn{
+  font-size: 3vh;
+}
