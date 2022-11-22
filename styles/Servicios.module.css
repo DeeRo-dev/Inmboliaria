@@ -13,7 +13,7 @@
   margin-left: 7vh;
 }
 .content{
-  background-color: aliceblue;
+  background-color: #fff;
   width: 100%;
   height: auto;
   display: flex;
@@ -37,4 +37,43 @@
   flex-direction: column;
   width: 50%;
   margin: auto;
+  color: #39B5E3;
+}
+.title{
+  font-size: 7vh;
+  
+}
+.subTitle{
+  font-size: 4vh;
+}
+.parrafo{
+  font-size: 3vh;
+}
+
+.contentForm{
+  margin-top: 10vh;
+  
+}
+.titleForm{
+  margin: auto;
+  padding-top: 7vh;
+  text-align: center;
+  font-size: 4vh;
+
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.input{
+  margin-top: 3vh;
+}
+.check{
+  padding: 2vh 0 ;
+}
+.span{
+  padding: 2vh 0 ;
 }
