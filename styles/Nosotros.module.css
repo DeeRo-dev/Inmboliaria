@@ -4,10 +4,10 @@
   background-attachment: fixed;
   position: absolute;
   z-index: -1;
-  opacity: .5;
+  filter: brightness(50%);
 }
 .contTitleP{
-  background-color: #39B5E3;
+  color: aliceblue;
   width: 50vh;
   margin-top: 10vh;
   margin-left: 7vh;
@@ -44,8 +44,8 @@
   margin: auto;
 }
 .imgT{
-  width: 50vh;
-  height: 50vh;
+  width: 65vh;
+  height: 65vh;
   border-radius: 50%;
   margin: auto;
 }

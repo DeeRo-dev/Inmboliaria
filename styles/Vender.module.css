@@ -4,13 +4,13 @@
   background-attachment: fixed;
   position: absolute;
   z-index: -1;
-  opacity: .5;
+  filter: brightness(50%);
 }
 .contTitleP{
-  background-color: #39B5E3;
   width: 50vh;
   margin-top: 10vh;
   margin-left: 7vh;
+  color: aliceblue;
 }
 .content{
   background-color: aliceblue;

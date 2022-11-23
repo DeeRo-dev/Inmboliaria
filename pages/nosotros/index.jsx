@@ -33,7 +33,10 @@ Trabajamos en Berazategui, ciudad capital y área metropolitana. (Baix Llobregat
       </div>
       <div className={style.textS}>
         <h2>Un grannnn Team</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adLorem ipsum dolor sit amet consectetur adLorem ipsum dolor sit amet consectetur adLorem ipsum dolor sit amet consectetur adLorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tenetur ducimus ipsam ipsa vel fugit at provident aspernatur ratione eaque.</p>
+      <p>En Bera y tu casa contamos con un equipo humano con gran experiencia, que te asesorarán en todo momento, tanto si necesitas realizar un proyecto de arquitectura, o como si necesitas conseguir una financiación hipotecaria.
+    <br/>
+    <br/>
+Bera y Tu Casa aporta un enfoque fresco e innovador al mercado inmobiliario, profesional y humano.</p>
       </div>
     </div>
   <Footer/>
