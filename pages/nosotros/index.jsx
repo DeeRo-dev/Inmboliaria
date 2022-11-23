@@ -27,7 +27,15 @@ Trabajamos en Berazategui, ciudad capital y área metropolitana. (Baix Llobregat
       </div>
     </div>
     </div>
-
+    <div className={style.contNos}>
+      <div className={style.contImage}>
+      <Image className={style.imgT} src={imag}/>
+      </div>
+      <div className={style.textS}>
+        <h2>Un grannnn Team</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adLorem ipsum dolor sit amet consectetur adLorem ipsum dolor sit amet consectetur adLorem ipsum dolor sit amet consectetur adLorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tenetur ducimus ipsam ipsa vel fugit at provident aspernatur ratione eaque.</p>
+      </div>
+    </div>
   <Footer/>
    </div>
   )

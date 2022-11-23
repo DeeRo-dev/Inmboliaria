@@ -33,3 +33,30 @@
 .spn{
   font-size: 3vh;
 }
+.contNos{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.contImage{
+  margin: auto;
+}
+.imgT{
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  margin: auto;
+}
+.textS{
+  margin:auto;
+  width: 50%;
+
+}
+.textS h2{
+  font-size: 5vh;
+}
+.textS p{
+  font-size: 3vh;
+}
